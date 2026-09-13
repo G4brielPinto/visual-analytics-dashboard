@@ -1,0 +1,28 @@
+# Python environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.env
+
+# Input data and generated artefacts
+data/
+datasets/
+outputs/
+results/
+artifacts/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Python, Dash and local-tool artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
